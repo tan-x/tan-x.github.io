@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="h-100">
+<html>
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -15,10 +15,14 @@
 
 		<title>Tanner M. Griffin</title>
 	</head>
-	<body class="index h-100" id="page-top">
+	<body class="index" id="page-top">
 		<!-- Navigation -->
-		<nav class="navbar navbar-expand-lg navbar-light">
-			<a class="navbar-brand" href="#">Navbar</a>
+		<nav class="navbar navbar-expand-lg navbar-light sticky">
+			<a class="navbar-brand" href="#">
+                <svg class="bi bi-triangle" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M7.938 2.016a.146.146 0 00-.054.057L1.027 13.74a.176.176 0 00-.002.183c.016.03.037.05.054.06.015.01.034.017.066.017h13.713a.12.12 0 00.066-.017.163.163 0 00.055-.06.176.176 0 00-.003-.183L8.12 2.073a.146.146 0 00-.054-.057A.13.13 0 008.002 2a.13.13 0 00-.064.016zm1.044-.45a1.13 1.13 0 00-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z" clip-rule="evenodd"/>
+                </svg>
+            </a>
 			<button
 				class="navbar-toggler"
 				type="button"
@@ -52,8 +56,8 @@
 							Links
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="https://github.com/tan-x/" target="_blank">GitHub</a>
+							<a class="dropdown-item" href="https://soundcloud.com/tangence/" target="_blank">Soundcloud</a>
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="#">Something else here</a>
 						</div>
@@ -69,25 +73,48 @@
 			</div>
         </nav>
 
-        <main class="content">
-            <div class="content-inside">
-                <div class="infobox">
-                    <p>Hello I'm Tanner</p>
+        <!-- Header -->
+        <header class="masthead">
+            <div class="flex center">
+            <img class="profile-img" src="images/0.jfif" alt="Profile Picture">
+                <div class="intro-text">
+                    <span class="name">Tanner M. Griffin</span>
+                    <div class="border-top my-3"></div>
+                    <span class="skills">Full Stack Developer</span>
                 </div>
-                <div class="aside">Side info</div>
-                <div class="low">low</div>
             </div>
+        </header>
+
+        <main class="content">
             
         </main>
 
-        
-
         <footer class="footer mt-auto py-3">
-            <div class="container">
+            <div class="container1">
               <span class="text-muted">Place sticky footer content here.</span>
             </div>
         </footer>
     </body>
+
+    <script>
+    // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
     
 	<script
 		src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

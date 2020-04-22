@@ -13,7 +13,7 @@
 	--gray: #6c757d;
 	--gray-dark: #343a40;
 	--primary: #007bff;
-	--secondary: rgb(73, 95, 181);
+	--secondary: rgb(147, 169, 240);
 	--success: #28a745;
 	--info: #17a2b8;
 	--warning: #ffc107;
@@ -32,20 +32,39 @@
 		monospace;
 }
 
-body {
-    background-image: url(../images/tanbarblue.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+html {
+    background: url(../images/tanbarblue.jpg) no-repeat center center fixed; 
+    -webkit-background-size: 60%;
+    -moz-background-size: 60%;
+    -o-background-size: 60%;
+    background-size: 60%;
 }
+
 
 *, ::after, ::before {
     box-sizing: border-box;
 }
 
+body {
+    background-color: transparent;
+}
+
+
 nav {
 	background-color: var(--secondary)!important;
 	font-size: 30px;
 	font-family: var(--font-family-sans-serif);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.success {
+    margin-top: 80px;
+
 }
 
 .btn-outline-success {
@@ -62,41 +81,46 @@ nav {
 
 
 .content {
-    width: 100vh;
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 60%;
+    margin: 0 auto;
     min-height: calc(100vh - 126px);
 }
 
 .content-inside {
-    
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
     min-height: calc(100vh - 150px);
     padding: 20px;
     padding-bottom: 50px;
-    display: grid;
-    grid-template: 
-        "m m m m m m m m s s s s"
-        "m m m m m m m m s s s s"
-        "m m m m m m m m s s s s"
-        "l l l l l l l l l l l l"
-        "l l l l l l l l l l l l";
+    
+    background-color: white;
+    opacity: .5;
+    border: var(--secondary) dotted 1px;
+    width: 80%;
+    height: 600px;
+    
 }
 
 .infobox { 
     background-color: white;
     opacity: .5;
     border: var(--secondary) dotted 1px;
-    grid-area: m;
+    width: 80%;
+    height: 600px;
 }
 
 .aside {
-    grid-area: s;
     background-color: white;
     opacity: .5;
     border: var(--secondary) dotted 1px;
 }
 
 .low {
-    grid-area: l;
     background-color: white;
     opacity: .5;
     border: var(--secondary) dotted 1px;
@@ -110,8 +134,24 @@ nav {
     margin-top: -50px;
 }
 
+header {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+header.masthead img {
+    display: block;
+    margin: 0 auto 20px;
+}
 
-.container {
+.profile-img {
+    border-radius: 50%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.container1 {
     width: auto;
     max-width: 680px;
     padding: 0 15px;
@@ -127,8 +167,5 @@ nav {
     padding-top: 1rem!important;
 }
 
-.h-100 {
-    height: 100%!important;
-    margin: 0;
-}
+
 
