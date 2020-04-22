@@ -107,12 +107,7 @@ nav {
 	color: transparent;
 }
 
-.container1 i {
-	height: 20px;
-}
-
 .fa-github:before, .fa-linkedin:before, .fa-soundcloud:before {
-	height: 20px;
 	color: var(--secondary);
 	margin-left: 8px;
 }
