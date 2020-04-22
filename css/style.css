@@ -92,8 +92,6 @@ nav {
 	height: 600px;
 }
 
-
-
 .footer {
 	display: flex;
 	justify-content: center;
@@ -101,7 +99,6 @@ nav {
 	text-align: center;
 	background-color: white!important;
 	font-size: 20px;
-	font-family: var(--font-family-sans-serif);
 	height: 50px;
 	margin-top: -50px;
 }
@@ -110,8 +107,6 @@ nav {
 	margin-top: 100px;
 	text-align: center;
 	font-size: 500px;
-
-	font-family: var(--font-family-sans-serif);
 	
 }
 .masthead img {
