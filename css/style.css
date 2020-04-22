@@ -13,7 +13,9 @@ html {
 body {
 	background-color: transparent;
 	color: whitesmoke;
-	background: url(../images/tanbarblue.jpg) no-repeat center center fixed;
+	background: url(../images/tanbarblue.jpg) no-repeat;
+	background-position: center center;;
+	background-attachment: fixed;
 	-webkit-background-size: 60%;
 	-moz-background-size: 60%;
 	-o-background-size: 60%;
@@ -84,10 +86,10 @@ nav {
 	justify-content: center;
 	padding: 40px;
     background: rgba(219,21,99,0.8);
-    background: -webkit-linear-gradient(45deg, rgba(0, 213, 173, 0.9), rgba(229,57,53,0.9));
-    background: -o-linear-gradient(45deg, rgba(0, 213, 173, 0.9), rgba(229,57,53,0.9));
-    background: -moz-linear-gradient(45deg, rgba(0, 213, 173, 0.9), rgba(229,57,53,0.9));
-    background: linear-gradient(45deg, rgba(0, 213, 173, 0.9), rgba(229,57,53,0.9));
+    background: -webkit-linear-gradient(45deg, rgba(0, 146, 204, 0.9), rgba(229,57,53,0.9));
+    background: -o-linear-gradient(45deg, rgba(0, 146, 204, 0.9), rgba(229,57,53,0.9));
+    background: -moz-linear-gradient(45deg, rgba(0, 146, 204, 0.9), rgba(229,57,53,0.9));
+    background: linear-gradient(45deg, rgba(0, 146, 204, 0.9), rgba(229,57,53,0.9));
 }
 
 .infobox {
@@ -149,8 +151,8 @@ header.smhead img {
 }
 
 .boxitem {
-	padding: 2px 5px;
-	margin: 60px;
+	padding: 2px 18px;
+	margin: 30px;
 	background-color: rgba(245, 245, 245, .1);
 	color: white;
 }
