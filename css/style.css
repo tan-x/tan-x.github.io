@@ -19,7 +19,6 @@ body {
 }
 
 nav {
-	background-image: ;
 	font-size: 24px;
 	font-family: var(--font-family-sans-serif);
 }
@@ -98,9 +97,24 @@ nav {
 	align-items: center;
 	text-align: center;
 	background-color: white!important;
-	font-size: 20px;
-	height: 50px;
+	font-size: 30px;
+	height: 80px;
 	margin-top: -50px;
+}
+
+.container1 a:hover {
+	text-decoration: none;
+	color: transparent;
+}
+
+.container1 i {
+	height: 20px;
+}
+
+.fa-github:before, .fa-linkedin:before, .fa-soundcloud:before {
+	height: 20px;
+	color: var(--secondary);
+	margin-left: 8px;
 }
 
 .masthead {
