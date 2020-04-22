@@ -22,11 +22,12 @@ body {
 	height: 100vh;
 	margin: 0;
 	overflow: hidden;
+	font-family: 'Montserrat'!important;
 }
 
 nav {
 	font-size: 24px;
-	font-family: var(--font-family-sans-serif);
+	font-family: 'Montserrat'!important;
 }
 
 .navbar-dark .navbar-toggler {
@@ -122,7 +123,6 @@ nav {
 	margin-top: 100px;
 	text-align: center;
 	font-size: 500px;
-	
 }
 .masthead img {
 	display: block;
@@ -148,6 +148,13 @@ header.smhead img {
 .intro-text, .portfolio-text {
 	font-size: 40px;
 	text-align: center;
+}
+
+.boxitem {
+	padding: 2px 5px;
+	margin: 60px;
+	background-color: rgba(245, 245, 245, .3);
+	color: white;
 }
 
 .portfolio-head {
@@ -176,4 +183,5 @@ header.smhead img {
 
 .border-top {
 	border-top: 1px solid #afb1b2!important;
+	margin: 5px 0px!important;
 }
