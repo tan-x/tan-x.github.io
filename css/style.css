@@ -122,7 +122,6 @@ nav {
 .masthead {
 	margin-top: 100px;
 	text-align: center;
-	font-size: 500px;
 }
 .masthead img {
 	display: block;
@@ -146,7 +145,6 @@ header.smhead img {
 }
 
 .intro-text, .portfolio-text {
-	font-size: 30px;
 	text-align: center;
 }
 
@@ -185,3 +183,16 @@ header.smhead img {
 	border-top: 1px solid #afb1b2!important;
 	margin: 5px 0px!important;
 }
+
+@media all and (min-width: 600px)  {  .intro-text, .portfolio-text  { font-size:2.0em;  } }
+@media all and (min-width: 700px)  {  .intro-text, .portfolio-text  { font-size:2.0em;  } }
+@media all and (min-width: 900px)  {  .intro-text, .portfolio-text  { font-size:2.0em;  } }
+@media all and (min-width: 1000px) {  .intro-text, .portfolio-text  { font-size:2.2em;  } }
+@media all and (min-width: 1100px) {  .intro-text, .portfolio-text  { font-size:2.4em;  } }
+@media all and (min-width: 1200px) {  .intro-text, .portfolio-text  { font-size:2.6em;  } }
+@media all and (min-width: 1300px) {  .intro-text, .portfolio-text  { font-size:2.8em;  } }
+@media all and (min-width: 1400px) {  .intro-text, .portfolio-text  { font-size:3.0em;  } }
+@media all and (min-width: 1500px) {  .intro-text, .portfolio-text  { font-size:3.2em;  } }
+@media all and (min-width: 1500px) {  .intro-text, .portfolio-text  { font-size:3.4em;  } }
+@media all and (min-width: 1600px) {  .intro-text, .portfolio-text  { font-size:3.6em;  } }
+@media all and (min-width: 1700px) {  .intro-text, .portfolio-text  { font-size:3.8em;  } }
