@@ -1,7 +1,6 @@
 html {
 	width: 100%;
 	height: 100%;
-	overflow: hidden;
 	position: relative;
 }
 
@@ -20,8 +19,9 @@ body {
 	-o-background-size: 60%;
 	background-size: 60%;
 	height: 100vh;
+	width: 100vw;
+  	overflow-x: hidden;
 	margin: 0;
-	overflow: hidden;
 	font-family: 'Montserrat'!important;
 }
 
@@ -120,7 +120,7 @@ nav {
 }
 
 .masthead {
-	margin-top: 100px;
+	margin-top: 70px;
 	text-align: center;
 }
 .masthead img {
@@ -182,6 +182,11 @@ header.smhead img {
 .border-top {
 	border-top: 1px solid #afb1b2!important;
 	margin: 5px 0px!important;
+}
+
+/* scrollbar */
+body::-webkit-scrollbar {
+	display: none;
 }
 
 @media all and (min-width: 600px)  {  .intro-text, .portfolio-text  { font-size:2.0em;  } }
