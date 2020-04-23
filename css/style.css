@@ -78,9 +78,8 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 40%;
-	height: 40vh;
-
+	
+	font-size: .6em;
 }
 
 .content-main section {
@@ -88,7 +87,7 @@ nav {
 }
 
 .content-main article {
-	margin: 20px;
+	margin: 5px;
 }
 
 .container-contact2 {
@@ -218,19 +217,19 @@ body::-webkit-scrollbar {
 
 @media all and (min-width: 600px) {
 	.intro-text,
-	.portfolio-text {
+	.portfolio-text, article {
 		font-size: 2em;
 	}
 }
 @media all and (min-width: 700px) {
 	.intro-text,
-	.portfolio-text {
+	.portfolio-text, article {
 		font-size: 2em;
 	}
 }
 @media all and (min-width: 900px) {
 	.intro-text,
-	.portfolio-text {
+	.portfolio-text, article {
 		font-size: 2em;
 	}
 }
