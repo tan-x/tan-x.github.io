@@ -102,7 +102,7 @@ nav {
 }
 
 .content-main:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 
 .content-main section {
