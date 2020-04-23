@@ -201,6 +201,7 @@ header.smhead img {
 	display: block;
 	margin: 0 auto 4px;
 	width: 60px;
+	filter: grayscale(50%);
 }
 
 .profile-img {
