@@ -45,16 +45,19 @@ nav {
 }
 
 .dropdown-menu {
-	background-color: rgba(255, 255, 255, 0.2)!important;
-	width: 60px;
+	background-color: rgba(255, 255, 255, 0.2) !important;
+	width: 150px !important;
+	padding: 5px 5px !important;
 }
 
 .dropdown-item {
-	color: white!important;
+	color: white !important;
+	padding: 0.25rem 0.75rem;
+	width: 90%;
 }
 
 .dropdown-item:hover {
-	background-color: rgba(255, 255, 255, 0.1)!important;
+	background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 .sticky {
@@ -92,8 +95,14 @@ nav {
 	justify-content: center;
 	align-items: center;
 	max-width: 1200px;
-	font-size: .8em;
-	margin: 50px 35px!important;
+	font-size: 0.8em;
+	margin: 50px 35px !important;
+
+	transition: all 0.5s ease-in-out;
+}
+
+.content-main:hover {
+	transform: scale(1.1);
 }
 
 .content-main section {
@@ -152,9 +161,16 @@ nav {
 	text-align: center;
 }
 .masthead img {
+	transition: all 0.2s ease-in-out;
 	display: block;
-	margin: 0 auto 20px;
+	margin: 0 auto 30px;
 	width: 170px;
+	filter: grayscale(50%);
+}
+
+.masthead img:hover {
+	transform: scale(1.1);
+	filter: grayscale(10%);
 }
 
 .smhead {
@@ -224,20 +240,23 @@ body::-webkit-scrollbar {
 
 @media all and (min-width: 600px) {
 	.intro-text,
-	.portfolio-text, article {
+	.portfolio-text,
+	article {
 		font-size: 1.6em;
 	}
 }
 @media all and (min-width: 700px) {
 	.intro-text,
-	.portfolio-text, article {
+	.portfolio-text,
+	article {
 		font-size: 1.8em;
 	}
 }
 @media all and (min-width: 900px) {
 	.intro-text,
-	.portfolio-text, article {
-		font-size: 2.0em;
+	.portfolio-text,
+	article {
+		font-size: 2em;
 	}
 }
 @media all and (min-width: 1000px) {
