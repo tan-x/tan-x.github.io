@@ -37,6 +37,10 @@ nav {
 	border-color: rgba(255, 255, 255, 0.9);
 }
 
+.navbar-nav {
+	width: 100px!important;
+}
+
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
