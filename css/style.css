@@ -41,6 +41,15 @@ nav {
 	width: 100px!important;
 }
 
+.navbar-brand {
+	padding: 5px 0px 8px 0px;
+}
+
+
+.bi-triangle {
+	margin: 0 1px 3px 2px;
+}
+
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -217,7 +226,7 @@ header.smhead img {
 .intro-text,
 .portfolio-text {
 	text-align: center;
-	font-size: x-large;
+	font-size: large;
 }
 
 .boxitem {
@@ -328,6 +337,13 @@ body::-webkit-scrollbar {
 	display: none;
 }
 
+@media all and (min-width: 500px) {
+	.intro-text,
+	.portfolio-text,
+	article {
+		font-size: 1.2em;
+	}
+}
 @media all and (min-width: 600px) {
 	.intro-text,
 	.portfolio-text,
