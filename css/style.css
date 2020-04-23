@@ -225,19 +225,19 @@ body::-webkit-scrollbar {
 @media all and (min-width: 600px) {
 	.intro-text,
 	.portfolio-text, article {
-		font-size: 2em;
+		font-size: 1.6em;
 	}
 }
 @media all and (min-width: 700px) {
 	.intro-text,
 	.portfolio-text, article {
-		font-size: 2em;
+		font-size: 1.8em;
 	}
 }
 @media all and (min-width: 900px) {
 	.intro-text,
 	.portfolio-text, article {
-		font-size: 2em;
+		font-size: 2.0em;
 	}
 }
 @media all and (min-width: 1000px) {
