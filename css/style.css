@@ -28,7 +28,7 @@ body {
 }
 
 nav {
-	font-size: 24px;
+	font-size: 18px;
 	font-family: 'Montserrat' !important;
 }
 
@@ -42,6 +42,19 @@ nav {
 .navbar-toggler-icon:focus {
 	outline: none;
 	box-shadow: none;
+}
+
+.dropdown-menu {
+	background-color: rgba(255, 255, 255, 0.2)!important;
+	width: 60px;
+}
+
+.dropdown-item {
+	color: white!important;
+}
+
+.dropdown-item:hover {
+	background-color: rgba(255, 255, 255, 0.1)!important;
 }
 
 .sticky {
