@@ -22,7 +22,7 @@ body {
 	background-size: 60%;
 	height: 100vh;
 	width: 100vw;
-  	overflow-x: hidden;
+	overflow-x: hidden;
 	margin: 0;
 	font-family: 'Montserrat'!important;
 }
@@ -190,6 +190,11 @@ header.smhead img {
 body::-webkit-scrollbar {
 	display: none;
 }
+
+
+
+
+
 
 @media all and (min-width: 600px)  {  .intro-text, .portfolio-text  { font-size:2.0em;  } }
 @media all and (min-width: 700px)  {  .intro-text, .portfolio-text  { font-size:2.0em;  } }
