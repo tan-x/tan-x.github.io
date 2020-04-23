@@ -79,7 +79,7 @@ nav {
 	justify-content: center;
 	align-items: center;
 	
-	font-size: .6em;
+	font-size: .8em;
 }
 
 .content-main section {
@@ -110,14 +110,6 @@ nav {
 	background: linear-gradient(45deg, rgba(0, 146, 204, 0.9), rgba(229, 57, 53, 0.9));
 }
 
-.infobox {
-	background-color: white;
-	opacity: 0.5;
-	border: var(--secondary) dotted 1px;
-	width: 80%;
-	height: 600px;
-}
-
 .footer {
 	display: flex;
 	justify-content: center;
@@ -142,12 +134,13 @@ nav {
 }
 
 .masthead {
-	margin-top: 10px;
+	margin-top: 20px;
 	text-align: center;
 }
 .masthead img {
 	display: block;
 	margin: 0 auto 20px;
+	width: 170px;
 }
 
 .smhead {
