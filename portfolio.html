@@ -17,7 +17,7 @@
 
 		<title>Tanner M. Griffin</title>
 	</head>
-	<body class="index page-top">
+	<body id="page-top">
 		<!-- Navigation -->
 		<nav class="navbar navbar-expand-lg navbar-dark sticky">
 			<a class="navbar-brand" href="index.html">
@@ -111,14 +111,23 @@
 				</section>
 				<section class="port-container">
 					<article class="item1">
-						<p>Synthesizer App</p>
+						<p>Synthesizer<br>App</p>
+						<img id="img1" src="images/synthapp.jpg"/>
 					</article>
-					<article class="item2">Board Game<br>Scorekeeper</article>
-					<article class="item3">Responsive<br>Portfolio</article>
-					<article class="item4">Wireless MIDI</article>
-					<article class="item5">Meow of Thrones</article>
-					<article class="item6"><p style="z-index: 2; position: fixed;">WhatsApp Skin</p>
-						<img style="height: 100%; width:100%; object-fit: cover; z-index: 0;" src="images/techwhatsapp.PNG"/>
+					<article class="item2"><p>Board Game<br>Scorekeeper</p>
+						<img id="img2" src="images/techwhatsapp.PNG"/>
+					</article>
+					<article class="item3"><p>Responsive<br>Portfolio</p>
+						<img id="img3" src="images/techwhatsapp.PNG"/>
+					</article>
+					<article class="item4"><p>Wireless<br>MIDI</p>
+						<img id="img4" src="images/midi.jpg"/>
+					</article>
+					<article class="item5"><p>Meow of<br>Thrones</p>
+						<img id="img5" src="images/techwhatsapp.PNG"/>
+					</article>
+					<article class="item6"><p>WhatsApp<br>Skin</p>
+						<img id="img6" src="images/techwhatsapp.PNG"/>
 					</article>
 				</section>
 			</main>
@@ -153,7 +162,10 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+
 </script>
+
 <script src="https://kit.fontawesome.com/b09b7656ce.js" crossorigin="anonymous"></script>
     
 	<script
@@ -171,4 +183,44 @@ function myFunction() {
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 		crossorigin="anonymous"
 	></script>
+	<script>
+		$(document).ready(function(){
+		  $(".item1").hover(function(){
+			$("#img1").css("filter", "opacity(75%)");
+			}, function(){
+			$("#img1").css("filter", "opacity(50%) blur(4px)");
+		  });
+
+		  $(".item2").hover(function(){
+			$("#img2").css("filter", "opacity(75%)");
+			}, function(){
+			$("#img2").css("filter", "opacity(50%) blur(4px)");
+		  });
+
+		  $(".item3").hover(function(){
+			$("#img3").css("filter", "opacity(75%)");
+			}, function(){
+			$("#img3").css("filter", "opacity(50%) blur(4px)");
+		  });
+
+		  $(".item4").hover(function(){
+			$("#img4").css("filter", "opacity(75%)");
+			}, function(){
+			$("#img4").css("filter", "opacity(50%) blur(4px)");
+		  });
+
+		  $(".item5").hover(function(){
+			$("#img5").css("filter", "opacity(75%)");
+			}, function(){
+			$("#img5").css("filter", "opacity(50%) blur(4px)");
+		  });
+
+		  $(".item6").hover(function(){
+			$("#img6").css("filter", "opacity(75%)");
+			}, function(){
+			$("#img6").css("filter", "opacity(50%) blur(4px)");
+		  });
+		
+		});
+		</script>
 </html>
