@@ -255,6 +255,10 @@ header.smhead img {
 	color: white;
 }
 
+#name.boxitem {
+	font-size: x-large;
+}
+
 #port.boxitem {
 	padding: 15px 20px;
 }
@@ -349,7 +353,7 @@ header.smhead img {
 
 .border-top {
 	border-top: 1px solid #afb1b2 !important;
-	margin: 5px 0px !important;
+	margin: 5px 10px !important;
 }
 
 /* scrollbar */
