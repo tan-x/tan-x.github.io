@@ -64,6 +64,7 @@ nav {
 	width: 106px !important;
 	min-width: 0!important;
 	padding: 5px 5px !important;
+	border: none;
 }
 
 .dropdown-item {
