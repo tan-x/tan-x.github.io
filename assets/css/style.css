@@ -116,7 +116,7 @@ nav {
 	align-items: center;
 	max-width: 1200px;
 	font-size: 0.8em;
-	margin: 50px 35px !important;
+	margin: 30px 35px 30px !important;
 	transition: all 0.5s ease-in-out;
 }
 
@@ -258,9 +258,6 @@ header.smhead img {
 	color: white;
 }
 
-#name.boxitem {
-	font-size: x-large;
-}
 
 #port.boxitem {
 	padding: 15px 20px;
@@ -342,6 +339,7 @@ header.smhead img {
 .port-container article p {
 	z-index: 2;
 	position: absolute;
+	filter: drop-shadow(0 0 0.2rem rgba(50, 20, 220, .8));
 }
 
 .container1 {

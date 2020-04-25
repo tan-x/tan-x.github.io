@@ -36,3 +36,15 @@ $(document).ready(function(){
     });
   
   });
+
+$(window).on('scroll', function () {
+    var pixs = $(document).scrollTop()
+    pixs = pixs / 100;
+    $(".smhead").css({"-webkit-filter": "blur("+pixs+"px)","filter": "blur("+pixs+"px)" })   
+});
+
+$(window).on('scroll', function () {
+    var pixs = $(document).scrollTop()
+    pixs = pixs / 100;
+    $(".masthead").css({"-webkit-filter": "blur("+pixs+"px)","filter": "blur("+pixs+"px)" })     
+});
