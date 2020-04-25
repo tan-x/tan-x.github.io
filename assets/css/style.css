@@ -30,6 +30,7 @@ body {
 nav {
 	font-size: 18px!important;
 	font-family: 'Montserrat' !important;
+	
 }
 
 .navbar-dark .navbar-toggler {
@@ -335,10 +336,7 @@ header.smhead img {
 	object-fit: cover;
 	filter: blur(4px) opacity(50%);
 	overflow: hidden;
-}
-
-.port-container article img:hover {
-	
+	transition: filter 0.5s ease-out;
 }
 
 .port-container article p {

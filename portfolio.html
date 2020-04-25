@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
 
     	<link
       		rel="stylesheet"
@@ -13,7 +13,7 @@
     	/>
     
     	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    	<link rel="stylesheet" type="text/css" href="css/style.css" />
+    	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
 		<title>Tanner M. Griffin</title>
 	</head>
@@ -96,7 +96,7 @@
 			<!-- Header -->
 			<header class="smhead">
 				<div class="flex center">
-				<img class="profile-img profile-img-sm" src="images/0.jfif" alt="Profile Picture">
+				<img class="profile-img profile-img-sm" src="assets/images/0.jfif" alt="Profile Picture">
 					<div class="portfolio-text">
 						<h4 class="portfolio-head h1-responsive">Tanner M. Griffin</h4>
 						<div class="border-top my-3"></div>
@@ -112,22 +112,22 @@
 				<section class="port-container">
 					<article class="item1">
 						<p>Synthesizer<br>App</p>
-						<img id="img1" src="images/synthapp.jpg"/>
+						<img id="img1" src="assets/images/synthapp.jpg"/>
 					</article>
 					<article class="item2"><p>Board Game<br>Scorekeeper</p>
-						<img id="img2" src="images/techwhatsapp.PNG"/>
+						<img id="img2" src="assets/images/TMgame.jpg"/>
 					</article>
 					<article class="item3"><p>Responsive<br>Portfolio</p>
-						<img id="img3" src="images/techwhatsapp.PNG"/>
+						<img id="img3" src="assets/images/tanbarblue.jpg"/>
 					</article>
 					<article class="item4"><p>Wireless<br>MIDI</p>
-						<img id="img4" src="images/midi.jpg"/>
+						<img id="img4" src="assets/images/midi.jpg"/>
 					</article>
 					<article class="item5"><p>Meow of<br>Thrones</p>
-						<img id="img5" src="images/techwhatsapp.PNG"/>
+						<img id="img5" src="assets/images/meow.PNG"/>
 					</article>
 					<article class="item6"><p>WhatsApp<br>Skin</p>
-						<img id="img6" src="images/techwhatsapp.PNG"/>
+						<img id="img6" src="assets/images/techwhatsapp.PNG"/>
 					</article>
 				</section>
 			</main>
@@ -183,44 +183,5 @@ function myFunction() {
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 		crossorigin="anonymous"
 	></script>
-	<script>
-		$(document).ready(function(){
-		  $(".item1").hover(function(){
-			$("#img1").css("filter", "opacity(75%)");
-			}, function(){
-			$("#img1").css("filter", "opacity(50%) blur(4px)");
-		  });
-
-		  $(".item2").hover(function(){
-			$("#img2").css("filter", "opacity(75%)");
-			}, function(){
-			$("#img2").css("filter", "opacity(50%) blur(4px)");
-		  });
-
-		  $(".item3").hover(function(){
-			$("#img3").css("filter", "opacity(75%)");
-			}, function(){
-			$("#img3").css("filter", "opacity(50%) blur(4px)");
-		  });
-
-		  $(".item4").hover(function(){
-			$("#img4").css("filter", "opacity(75%)");
-			}, function(){
-			$("#img4").css("filter", "opacity(50%) blur(4px)");
-		  });
-
-		  $(".item5").hover(function(){
-			$("#img5").css("filter", "opacity(75%)");
-			}, function(){
-			$("#img5").css("filter", "opacity(50%) blur(4px)");
-		  });
-
-		  $(".item6").hover(function(){
-			$("#img6").css("filter", "opacity(75%)");
-			}, function(){
-			$("#img6").css("filter", "opacity(50%) blur(4px)");
-		  });
-		
-		});
-		</script>
+	<script src="assets/js/portfolioHover.js"></script>
 </html>
