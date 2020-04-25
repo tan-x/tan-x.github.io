@@ -48,3 +48,4 @@ $(window).on('scroll', function () {
     pixs = pixs / 100;
     $(".masthead").css({"-webkit-filter": "blur("+pixs+"px)","filter": "blur("+pixs+"px)" })     
 });
+
