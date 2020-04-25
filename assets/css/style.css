@@ -148,6 +148,7 @@ nav {
 .btn-primary {
 	background: transparent;
 	border-color: white;
+	margin-bottom: 20px;
 }
 
 .content-main:hover {
