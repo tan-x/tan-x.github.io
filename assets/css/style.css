@@ -30,6 +30,7 @@ nav {
 .navbar-dark .navbar-toggler {
 	color: rgba(255, 255, 255, 0.9);
 	border-color: rgba(255, 255, 255, 0.9);
+	background: -webkit-linear-gradient(45deg,  rgba(0, 146, 204, 0.2), rgba(229, 57, 53, 0.4));
 }
 
 .navbar-nav {
@@ -47,11 +48,13 @@ nav {
 	margin: 0 1px 3px 2px;
 }
 
+.navbar-toggler:hover,
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
 	outline: none;
 	box-shadow: none;
+	background: -webkit-linear-gradient(45deg,  rgba(0, 146, 204, 0.4), rgba(229, 57, 53, 0.4));
 }
 
 .dropdown-menu {
