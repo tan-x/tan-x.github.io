@@ -5,9 +5,9 @@
 My first portfolio build using HTML, CSS, and JS.
 
 ## Preview
-[![Preview Screenshot](https://tan-x.github.io/assets/images/screenshot1.png)](https://tan-x.github.io/)]
+[![Preview Screenshot](assets/images/screenshot1.png)](https://tan-x.github.io/)]
 
-![Mobile Preview](https://tan-x.github.io/assets/images/screenshot2.png)
+![Mobile Preview](assets/images/screenshot2.png)
 
 **[View Personal Portfolio Page](https://tan-x.github.io/)**
 
