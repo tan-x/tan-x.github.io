@@ -1,9 +1,3 @@
-html {
-	width: 100%;
-	height: 100%;
-	position: relative;
-}
-
 body {
 	background-color: transparent;
 	color: whitesmoke;
@@ -20,17 +14,12 @@ body {
 	margin: 0;
 	font-family: 'Montserrat' !important;
 }
+
 /* navbar styling */
 nav {
 	font-size: 18px !important;
 	font-family: 'Montserrat' !important;
 	z-index: 100;
-}
-
-.navbar-dark .navbar-toggler {
-	color: rgba(255, 255, 255, 0.9);
-	border-color: rgba(255, 255, 255, 0.9);
-	background: -webkit-linear-gradient(45deg,  rgba(0, 146, 204, 0.2), rgba(229, 57, 53, 0.4));
 }
 
 .navbar-nav {
@@ -48,17 +37,23 @@ nav {
 	margin: 0 1px 3px 2px;
 }
 
+.navbar-dark .navbar-toggler {
+	color: rgba(255, 255, 255, 0.9);
+	border-color: rgba(255, 255, 255, 0.9);
+	background: -webkit-linear-gradient(45deg, rgba(0, 146, 204, 0.2), rgba(229, 57, 53, 0.4));
+}
+
 .navbar-toggler:hover,
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
 	outline: none;
 	box-shadow: none;
-	background: -webkit-linear-gradient(45deg,  rgba(0, 146, 204, 0.4), rgba(229, 57, 53, 0.4));
+	background: -webkit-linear-gradient(45deg, rgba(0, 146, 204, 0.4), rgba(229, 57, 53, 0.4));
 }
 
 .dropdown-menu {
-	background: -webkit-linear-gradient(45deg, rgba(0, 146, 204, 0.6), rgba(229, 57, 53, 0.6))!important;
+	background: -webkit-linear-gradient(45deg, rgba(0, 146, 204, 0.6), rgba(229, 57, 53, 0.6)) !important;
 	width: 102px !important;
 	min-width: 0 !important;
 	padding: 5px 5px !important;
@@ -118,18 +113,20 @@ header.smhead img {
 	border-style: none;
 }
 
-/* container styling */
-.container-contact {
+/* header border line */
+.border-top {
+	border-top: 1px solid #afb1b2 !important;
+	margin: 5px 10px 10px 10px !important;
+}
+
+/* main container styling */
+.container-main {
 	width: 100%;
 	min-height: 100vh;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	flex-wrap: wrap;
 	padding: 40px;
 	background: rgba(219, 21, 99, 0.8);
 	background: -webkit-linear-gradient(45deg, rgba(0, 146, 204, 0.9), rgba(229, 57, 53, 0.9));
@@ -138,13 +135,28 @@ header.smhead img {
 	background: linear-gradient(45deg, rgba(0, 146, 204, 0.9), rgba(229, 57, 53, 0.9));
 }
 
-#index.container-contact {
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#index.container-main {
 	justify-content: space-evenly;
 }
 
-#port.container-contact {
+#port.container-main {
 	justify-content: flex-start;
 }
+
 .content {
 	background-color: rgba(255, 255, 255, 0.8);
 	width: 60%;
@@ -156,37 +168,13 @@ header.smhead img {
 	max-width: 1600px !important;
 	margin: 100px 0;
 	width: 85vw;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 
 #portfolioBtm {
 	max-width: 600px !important;
 }
 
-.content-inside {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 80%;
-	min-height: calc(100vh - 150px);
-	padding: 20px;
-	padding-bottom: 50px;
-	background-color: white;
-	opacity: 0.5;
-	border: var(--secondary) dotted 1px;
-	width: 80%;
-	height: 600px;
-}
-
 .content-main {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	max-width: 1200px;
 	font-size: 0.8em;
 	margin: 30px 35px 30px !important;
@@ -194,10 +182,7 @@ header.smhead img {
 
 .content-port {
 	justify-self: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	align-items: center;
+	justify-content: space-evenly !important;
 	max-width: 1200px;
 	font-size: 1.1em;
 	margin: 5px 25px 25px !important;
@@ -214,7 +199,7 @@ header.smhead img {
 
 h4 {
 	text-align: center;
-	background: -webkit-linear-gradient(45deg, rgba(229, 57, 53, 0.9),  rgba(0, 146, 204, 0.9));
+	background: -webkit-linear-gradient(45deg, rgba(229, 57, 53, 0.9), rgba(0, 146, 204, 0.9));
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -225,7 +210,7 @@ h4 {
 .btn-primary {
 	border-color: white;
 	margin-bottom: 5px;
-	background: -webkit-linear-gradient(45deg,  rgba(0, 146, 204, 0.4), rgba(229, 57, 53, 0.4));
+	background: -webkit-linear-gradient(45deg, rgba(0, 146, 204, 0.4), rgba(229, 57, 53, 0.4));
 	-webkit-text-fill-color: white;
 }
 
@@ -237,16 +222,13 @@ h4 {
 	margin: 10px;
 }
 
-.content-main h4, p {
+.content-main h4,
+p {
 	margin: 10px;
 }
 
 /* footer */
 .footer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
 	background-color: white !important;
 	font-size: 30px;
 	height: 80px;
@@ -312,10 +294,6 @@ h4 {
 	border: 1px rgba(255, 255, 255, 0.6) solid;
 	width: 100%;
 	height: 200px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
 	overflow: hidden;
 }
 
@@ -385,11 +363,6 @@ h4 {
 	opacity: 1;
 }
 
-.border-top {
-	border-top: 1px solid #afb1b2 !important;
-	margin: 5px 10px 10px 10px!important;
-}
-
 /* scrollbar */
 body::-webkit-scrollbar {
 	display: none;
@@ -402,57 +375,67 @@ h3 {
 
 @media screen and (min-width: 1200px) {
 	h3 {
-	   font-size: 36px;
+		font-size: 36px;
 	}
 }
 @media screen and (max-width: 850px) {
 	h3 {
-	   font-size: 26px;
+		font-size: 26px;
 	}
 }
 /* text responsiveness */
 @media all and (min-width: 400px) {
 	.intro-text,
 	.portfolio-text,
-	p, h2 {
-		font-size: 1.0em;
+	p,
+	h2 {
+		font-size: 1em;
 	}
 }
 @media all and (min-width: 500px) {
 	.intro-text,
 	.portfolio-text,
-	p, h2 {
+	p,
+	h2 {
 		font-size: 1.2em;
 	}
 }
 @media all and (min-width: 600px) {
 	.intro-text,
 	.portfolio-text,
-	p, h2 {
+	p,
+	h2 {
 		font-size: 1.6em;
 	}
 }
 @media all and (min-width: 700px) {
 	.intro-text,
-	.portfolio-text, p, h2 {
+	.portfolio-text,
+	p,
+	h2 {
 		font-size: 1.7em;
 	}
 }
 @media all and (min-width: 800px) {
 	.intro-text,
-	.portfolio-text, p, h2 {
+	.portfolio-text,
+	p,
+	h2 {
 		font-size: 1.8em;
 	}
 }
 @media all and (min-width: 900px) {
 	.intro-text,
-	.portfolio-text, p, h2 {
+	.portfolio-text,
+	p,
+	h2 {
 		font-size: 1.9em;
 	}
 }
 @media all and (min-width: 1000px) {
 	.intro-text,
-	.portfolio-text, h2 {
+	.portfolio-text,
+	h2 {
 		font-size: 2.2em;
 	}
 }
@@ -504,5 +487,3 @@ h3 {
 		font-size: 3.8em;
 	}
 }
-
-
