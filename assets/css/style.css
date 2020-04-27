@@ -119,9 +119,8 @@ nav {
 
 .container {
 	max-width: 1600px !important;
-	margin: 0;
+	margin: 100px 0;
 	width: 85vw;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
