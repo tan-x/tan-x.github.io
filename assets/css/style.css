@@ -267,11 +267,6 @@ header.smhead img {
 	border-style: none;
 }
 
-.intro-text,
-.portfolio-text {
-	text-align: center;
-	font-size: large;
-}
 
 .boxitem {
 	padding: 30px 30px !important;
@@ -445,7 +440,7 @@ body::-webkit-scrollbar {
 }
 @media all and (min-width: 1000px) {
 	.intro-text,
-	.portfolio-text {
+	.portfolio-text, h2 {
 		font-size: 2.2em;
 	}
 }
