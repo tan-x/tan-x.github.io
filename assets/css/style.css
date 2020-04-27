@@ -54,11 +54,11 @@ nav {
 }
 
 .dropdown-menu {
-	background-color: rgba(255, 255, 255, 0.2) !important;
+	background: -webkit-linear-gradient(45deg, rgba(0, 146, 204, 0.9), rgba(229, 57, 53, 0.9))!important;
 	width: 102px !important;
 	min-width: 0 !important;
 	padding: 5px 5px !important;
-	margin-bottom: 10px !important;
+	margin: 10px 0 !important;
 	border: none;
 }
 
