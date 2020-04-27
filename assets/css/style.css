@@ -391,7 +391,7 @@ header.smhead img {
 
 .border-top {
 	border-top: 1px solid #afb1b2 !important;
-	margin: 5px 10px !important;
+	margin: 5px 10px 10px 10px!important;
 }
 
 /* scrollbar */
