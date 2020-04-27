@@ -26,3 +26,5 @@ The JS hover function doesn't seem to enact the transition CSS property on first
 Background IMG on mobile snaps when the navigation bar disappears from scrolling.
 
 I would like to change the portfolio grid to change on a full desktop view and see if I like it more than its static layout.
+
+I need to get the contact form script working, but I have more to learn on that. (server side php?)
