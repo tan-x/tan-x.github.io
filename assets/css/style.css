@@ -42,6 +42,7 @@ nav {
 	padding: 5px 0 8px 10px;
 }
 
+/* brand triangle */
 .bi-triangle {
 	margin: 0 1px 3px 2px;
 }
@@ -54,7 +55,7 @@ nav {
 }
 
 .dropdown-menu {
-	background: -webkit-linear-gradient(45deg, rgba(0, 146, 204, 0.9), rgba(229, 57, 53, 0.9))!important;
+	background: -webkit-linear-gradient(45deg, rgba(0, 146, 204, 0.6), rgba(229, 57, 53, 0.6))!important;
 	width: 102px !important;
 	min-width: 0 !important;
 	padding: 5px 5px !important;
