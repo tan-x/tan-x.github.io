@@ -174,10 +174,7 @@ nav {
 }
 
 .content-contact {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	
 	max-width: 1200px;
 	font-size: 0.8em;
 	margin: 20px 35px !important;
