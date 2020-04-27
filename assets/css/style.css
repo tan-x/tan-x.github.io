@@ -28,9 +28,8 @@ body {
 }
 
 nav {
-	font-size: 18px!important;
+	font-size: 18px !important;
 	font-family: 'Montserrat' !important;
-	
 }
 
 .navbar-dark .navbar-toggler {
@@ -39,7 +38,7 @@ nav {
 }
 
 .navbar-nav {
-	width: fit-content!important;
+	width: fit-content !important;
 	padding: 0 10px;
 	background-color: rgba(184, 184, 184, 0.1);
 }
@@ -47,7 +46,6 @@ nav {
 .navbar-brand {
 	padding: 5px 0 8px 10px;
 }
-
 
 .bi-triangle {
 	margin: 0 1px 3px 2px;
@@ -58,14 +56,14 @@ nav {
 .navbar-toggler-icon:focus {
 	outline: none;
 	box-shadow: none;
-} 
+}
 
 .dropdown-menu {
 	background-color: rgba(255, 255, 255, 0.2) !important;
 	width: 102px !important;
-	min-width: 0!important;
+	min-width: 0 !important;
 	padding: 5px 5px !important;
-	margin-bottom: 10px!important;
+	margin-bottom: 10px !important;
 	border: none;
 }
 
@@ -73,7 +71,7 @@ nav {
 	color: white !important;
 	padding: 0.25rem 0.4rem;
 	width: 100%;
-	font-size: .8em;
+	font-size: 0.8em;
 }
 
 .dropdown-item:hover {
@@ -105,7 +103,7 @@ nav {
 	background: linear-gradient(45deg, rgba(0, 146, 204, 0.9), rgba(229, 57, 53, 0.9));
 }
 
-#index.container-contact{
+#index.container-contact {
 	justify-content: space-evenly;
 }
 
@@ -120,7 +118,7 @@ nav {
 }
 
 .container {
-	max-width: 1600px!important;
+	max-width: 1600px !important;
 	margin: 0;
 	width: 85vw;
 
@@ -131,7 +129,7 @@ nav {
 }
 
 #portfolioBtm {
-	max-width: 600px!important;
+	max-width: 600px !important;
 }
 
 .content-inside {
@@ -174,11 +172,10 @@ nav {
 }
 
 .content-contact {
-	
 	max-width: 1200px;
 	font-size: 0.8em;
 	margin: 20px 35px !important;
-	padding: 20px 20px!important;
+	padding: 20px 20px !important;
 	transition: all 0.5s ease-in-out;
 }
 
@@ -207,13 +204,12 @@ h4 {
 
 .fade-in {
 	opacity: 0;
-	transition: opacity 500ms ease-in!important;
-  }
-  
-  .fade-in.appear {
+	transition: opacity 500ms ease-in !important;
+}
+
+.fade-in.appear {
 	opacity: 1;
-  }
-  
+}
 
 .footer {
 	display: flex;
@@ -279,17 +275,16 @@ header.smhead img {
 }
 
 .boxitem {
-	padding: 20px 20px!important;
+	padding: 20px 20px !important;
 	background-color: rgba(245, 245, 245, 0.1);
 	color: white;
 }
 
 .boxitem2 {
-	padding: 2px 18px!important;
+	padding: 2px 18px !important;
 	background-color: rgba(245, 245, 245, 0.1);
 	color: white;
 }
-
 
 #port.boxitem {
 	padding: 15px 20px;
@@ -309,7 +304,7 @@ header.smhead img {
 	transition: all 0.5s ease-in-out;
 }
 
-.port-item{
+.port-item {
 	border: 1px rgba(255, 255, 255, 0.6) solid;
 }
 .item1 {
@@ -346,7 +341,7 @@ header.smhead img {
 	opacity: 0;
 	transition: opacity 250ms ease-in;
 }
-  
+
 .fade-in.appear {
 	opacity: 1;
 }
@@ -367,7 +362,7 @@ header.smhead img {
 
 .port-container article img {
 	height: 100%;
-	width:100%;
+	width: 100%;
 	object-fit: cover;
 	filter: blur(4px) opacity(50%);
 	overflow: hidden;
@@ -377,7 +372,7 @@ header.smhead img {
 .port-container article p {
 	z-index: 2;
 	position: absolute;
-	filter: drop-shadow(0 0 0.2rem rgba(50, 20, 220, .8));
+	filter: drop-shadow(0 0 0.2rem rgba(50, 20, 220, 0.8));
 }
 
 .container1 {
@@ -415,7 +410,7 @@ body::-webkit-scrollbar {
 @media all and (min-width: 500px) {
 	.intro-text,
 	.portfolio-text,
-	article{
+	article {
 		font-size: 1.2em;
 	}
 }
@@ -490,8 +485,7 @@ body::-webkit-scrollbar {
 }
 @media all and (min-width: 1700px) {
 	.intro-text,
-	.portfolio-text{
+	.portfolio-text {
 		font-size: 3.8em;
 	}
 }
-
