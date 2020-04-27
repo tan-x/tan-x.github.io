@@ -198,12 +198,12 @@ h4 {
 	transform: scale(1.05);
 }
 
-.content-main section {
-	margin: 20px;
+.content-main h2 {
+	margin: 10px;
 }
 
-.content-main article {
-	margin: 5px;
+.content-main h4, p {
+	margin: 10px;
 }
 
 .fade-in {
@@ -224,9 +224,10 @@ h4 {
 	font-size: 30px;
 	height: 80px;
 	margin-top: -50px;
+	padding: 0 15px;
 }
 
-.container1 a:hover {
+.footer a:hover {
 	text-decoration: none;
 	color: transparent;
 }
@@ -379,12 +380,6 @@ header.smhead img {
 	filter: drop-shadow(0 0 0.2rem rgba(20, 33, 220, 0.8));
 }
 
-.container1 {
-	width: auto;
-	max-width: 680px;
-	padding: 0 15px;
-}
-
 .mt-auto,
 .my-auto {
 	margin-top: auto !important;
@@ -414,28 +409,28 @@ body::-webkit-scrollbar {
 @media all and (min-width: 500px) {
 	.intro-text,
 	.portfolio-text,
-	article {
+	p {
 		font-size: 1.2em;
 	}
 }
 @media all and (min-width: 600px) {
 	.intro-text,
 	.portfolio-text,
-	article {
+	p {
 		font-size: 1.6em;
 	}
 }
 @media all and (min-width: 700px) {
 	.intro-text,
 	.portfolio-text,
-	article {
+	p {
 		font-size: 1.8em;
 	}
 }
 @media all and (min-width: 900px) {
 	.intro-text,
 	.portfolio-text,
-	article {
+	p {
 		font-size: 2em;
 	}
 }
