@@ -308,32 +308,32 @@ header.smhead img {
 	text-align: center;
 	overflow: hidden;
 }
-.item1 {
+#item1 {
 	grid-row: 1 / 2;
 	grid-column: 1 / span 12;
 }
 
-.item2 {
+#item2 {
 	grid-row: 2 / 3;
 	grid-column: 1 / span 6;
 }
 
-.item3 {
+#item3 {
 	grid-row: 2 / 3;
 	grid-column: 7 / span 6;
 }
 
-.item4 {
+#item4 {
 	grid-row: 3 / 4;
 	grid-column: 1 / span 12;
 }
 
-.item5 {
+#item5 {
 	grid-row: 4 / 5;
 	grid-column: 1 / span 6;
 }
 
-.item6 {
+#item6 {
 	grid-row: 4 / 5;
 	grid-column: 7 / span 6;
 }

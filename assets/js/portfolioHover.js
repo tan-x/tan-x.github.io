@@ -1,5 +1,6 @@
+// Script gives filter effects on hover for portfolio items
 $(document).ready(function () {
-	$('.item1').hover(
+	$('#item1').hover(
 		function () {
 			$('#img1').css('filter', 'opacity(85%)');
 		},
@@ -8,7 +9,7 @@ $(document).ready(function () {
 		}
 	);
 
-	$('.item2').hover(
+	$('#item2').hover(
 		function () {
 			$('#img2').css('filter', 'opacity(85%)');
 		},
@@ -17,7 +18,7 @@ $(document).ready(function () {
 		}
 	);
 
-	$('.item3').hover(
+	$('#item3').hover(
 		function () {
 			$('#img3').css('filter', 'opacity(85%)');
 		},
@@ -26,7 +27,7 @@ $(document).ready(function () {
 		}
 	);
 
-	$('.item4').hover(
+	$('#item4').hover(
 		function () {
 			$('#img4').css('filter', 'opacity(85%)');
 		},
@@ -35,7 +36,7 @@ $(document).ready(function () {
 		}
 	);
 
-	$('.item5').hover(
+	$('#item5').hover(
 		function () {
 			$('#img5').css('filter', 'opacity(85%)');
 		},
@@ -44,7 +45,7 @@ $(document).ready(function () {
 		}
 	);
 
-	$('.item6').hover(
+	$('#item6').hover(
 		function () {
 			$('#img6').css('filter', 'opacity(85%)');
 		},
