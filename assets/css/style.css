@@ -30,6 +30,7 @@ body {
 nav {
 	font-size: 18px !important;
 	font-family: 'Montserrat' !important;
+	z-index: 100;
 }
 
 .navbar-dark .navbar-toggler {
@@ -181,12 +182,17 @@ nav {
 h4 {
 	text-align: center;
 	color: rgb(221, 204, 204);
+	background: -webkit-linear-gradient(45deg, rgba(229, 57, 53, 0.9),  rgba(0, 146, 204, 0.9));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.9));
 }
 
 .btn-primary {
-	background: transparent;
 	border-color: white;
 	margin-bottom: 20px;
+	background: -webkit-linear-gradient(45deg,  rgba(0, 146, 204, 0.4), rgba(229, 57, 53, 0.4));
+	-webkit-text-fill-color: white;
 }
 
 .content-main:hover {
@@ -274,7 +280,7 @@ header.smhead img {
 }
 
 .boxitem {
-	padding: 20px 20px !important;
+	padding: 30px 30px !important;
 	background-color: rgba(245, 245, 245, 0.1);
 	color: white;
 }
@@ -371,7 +377,7 @@ header.smhead img {
 .port-container article p {
 	z-index: 2;
 	position: absolute;
-	filter: drop-shadow(0 0 0.2rem rgba(50, 20, 220, 0.8));
+	filter: drop-shadow(0 0 0.2rem rgba(20, 33, 220, 0.8));
 }
 
 .container1 {

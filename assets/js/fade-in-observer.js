@@ -22,6 +22,16 @@ faders.forEach((fader) => {
 
 $(window).on('scroll', function () {
 	var pixs = $(document).scrollTop();
-	pixs = pixs / 100;
+	pixs = pixs / 200;
 	$('.smhead, .masthead').css({ '-webkit-filter': 'blur(' + pixs + 'px)', filter: 'blur(' + pixs + 'px)' });
 });
+
+
+if ($(window).width() < 560){
+    $(window).on('scroll', function () {
+        var pixs = $(document).scrollTop();
+        pixs = (pixs - 400) / 400;
+        $('#about').css({ '-webkit-filter': 'blur(' + pixs + 'px)', filter: 'blur(' + pixs + 'px)' });
+    });
+};
+
