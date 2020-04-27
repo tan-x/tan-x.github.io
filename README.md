@@ -5,7 +5,9 @@
 My first portfolio build using HTML, CSS, and JS.
 
 ## Preview
-<img src="assets/images/screenshot1.png" width="600px"/>
+<p align="center"><img src="assets/images/screenshot1.PNG" width="700px" align="center"/></p>
+
+<p align="center"><img src="assets/images/screenshot2.PNG" height="500px"/></p>
 
 **[View Personal Portfolio Page](https://tan-x.github.io/)**
 
