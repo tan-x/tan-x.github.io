@@ -399,6 +399,19 @@ body::-webkit-scrollbar {
 	display: none;
 }
 
+h3 {
+	font-size: 3vw;
+}
+@media screen and (min-width: 1200px) {
+	h3 {
+	   font-size: 36px;
+	}
+}
+@media screen and (max-width: 850px) {
+	h3 {
+	   font-size: 26px;
+	}
+}
 @media all and (min-width: 400px) {
 	.intro-text,
 	.portfolio-text,
