@@ -45,7 +45,7 @@ $(window).on('scroll', function () {
 
 $(window).on('scroll', function () {
     var pixs = $(document).scrollTop()
-    pixs = pixs / 100;
-    $(".masthead").css({"-webkit-filter": "blur("+pixs+"px)","filter": "blur("+pixs+"px)" })     
+    pixs = pixs / 500;
+    $(".masthead, #shade").css({"-webkit-filter": "blur("+pixs+"px)","filter": "blur("+pixs+"px)" })     
 });
 

@@ -95,38 +95,37 @@
       </div>
     </nav>
 
-    <div class="container-contact" id="index">
+    <main class="container-contact" id="index">
 
       <!-- Header -->
-      <div class="masthead">
-        <div class="flex center">
-          <img class="profile-img" src="assets/images/0.jfif" alt="Profile Picture" />
-          <div class="intro-text">
-            <span class="boxitem rounded" id="name">Tanner M. Griffin</span>
-            <div class="border-top my-3"></div>
-            <span class="boxitem rounded" id="dev">Full Stack Developer</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Main/Summary -->
-      <main class="content-main boxitem rounded">
-        <section>
-          <h2 class="h1-responsive"><i class="far fa-user-circle"></i> About</h2>
+      <header class="masthead">
+        <img class="profile-img" src="assets/images/0.jfif" alt="Profile Picture" />
+        <section class="intro-text">
+          <span class="boxitem rounded" id="name">Tanner M. Griffin</span>
+          <div class="border-top my-3"></div>
+          <span class="boxitem rounded" id="dev">Full Stack Developer</span>
         </section>
+      </header>
+
+      <!-- Main/About -->
+      <section class="content-main boxitem rounded">
+        <header>
+          <h2 class="h1-responsive"><i class="far fa-user-circle"></i> About</h2>
+        </header>
         <article>
           <p>Tanner Griffin is a Full Stack Web Developer with years of experience managing a team
              and delivering financial services to business clients. His background in audio engineering,
               electronics, financial operations, and management all lend to his ability to manage large 
               projects and provide a quality product to the customer.</p>
-        </article>
-        
-      </main>
+        </article> 
+      </section>
+
       <div class="border-top my-3" style="width: 30%; max-width: 300px;"></div>
-      <main class="content-main boxitem rounded">
-        <section>
+      <!-- Services  -->
+      <section class="content-main boxitem rounded">
+        <header>
           <h2 class="h1-responsive"><i class="fas fa-book-open"></i> Services</h2>
-        </section>
+        </header>
         <h4>Front End Development</h4>
         <article>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mollis varius mauris pharetra euismod. Donec id congue dui. Cras ullamcorper sagittis nisi, in iaculis elit ornare in. Duis a sem dolor.
@@ -135,13 +134,14 @@
         <h4>UI/UX Design</h4>
         <article><p>Donec pharetra, lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id tempus nisi. In vel metus diam. In hac habitasse platea dictumst. Nam hendrerit dui volutpat scelerisque sollicitudin.</p>
         </article>
-        
-      </main>
+      </section>
+
       <div class="border-top my-3" style="width: 30%; max-width: 300px;"></div>
-      <main class="content-main boxitem rounded">
-        <section>
+      <!-- Portfolio Intro -->
+      <section class="content-main boxitem rounded">
+        <header>
           <h2 class="h1-responsive"><i class="fas fa-book-open"></i> Portfolio</h2>
-        </section>
+        </header>
         <article>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta elementum tempus. Sed non ligula dignissim, sollicitudin orci eget, luctus ex.
           </p>
@@ -149,42 +149,19 @@
         <form method="get" action="portfolio.html">
         <button class="btn btn-primary">Click Here</button>
         </form>
-        
-      </main>
-      
-    </div>
+      </section>
+    </main>
 
-    <footer class="mt-auto py-3 footer">
-      <div class="container1">
-        <a href="https://github.com/tan-x/" target="_blank"><i class="fab fa-github fa-lg"></i>
-        <a href="https://www.linkedin.com/in/tannermgriffin/" target="_blank"><i class="fab fa-linkedin fa-lg"></i>
-        <a href="https://soundcloud.com/tangence" target="_blank"><i class="fab fa-soundcloud fa-lg"></i>
-
-      </div>
+		<!-- Footer -->
+    <footer class="footer mt-auto py-3">
+      <section class="container1">
+        <a href="https://github.com/tan-x/" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+        <a href="https://www.linkedin.com/in/tannermgriffin/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="https://soundcloud.com/tangence" target="_blank"><i class="fab fa-soundcloud fa-lg"></i></a>
+      </section>
     </footer>
   </body>
-
-  <script>
-    // When the user scrolls the page, execute myFunction
-    window.onscroll = function () {
-      myFunction();
-    };
-
-    // Get the navbar
-    var navbar = document.getElementById("navbar");
-
-    // Get the offset position of the navbar
-    var sticky = navbar.offsetTop;
-
-    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky");
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-  </script>
+  
   <script src="https://kit.fontawesome.com/b09b7656ce.js" crossorigin="anonymous"></script>
   <script
     src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
