@@ -183,7 +183,7 @@ h4 {
 
 .btn-primary {
 	border-color: white;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 	background: -webkit-linear-gradient(45deg,  rgba(0, 146, 204, 0.4), rgba(229, 57, 53, 0.4));
 	-webkit-text-fill-color: white;
 }
@@ -427,16 +427,20 @@ body::-webkit-scrollbar {
 }
 @media all and (min-width: 700px) {
 	.intro-text,
-	.portfolio-text,
-	p, h2 {
+	.portfolio-text, p, h2 {
+		font-size: 1.7em;
+	}
+}
+@media all and (min-width: 800px) {
+	.intro-text,
+	.portfolio-text, p, h2 {
 		font-size: 1.8em;
 	}
 }
 @media all and (min-width: 900px) {
 	.intro-text,
-	.portfolio-text,
-	p, h2 {
-		font-size: 2em;
+	.portfolio-text, p, h2 {
+		font-size: 1.9em;
 	}
 }
 @media all and (min-width: 1000px) {
