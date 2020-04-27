@@ -164,8 +164,7 @@ nav {
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
-	width: 85%;
-	max-width: 1100px;
+	max-width: 1200px;
 	font-size: 1.1em;
 	margin: 5px 25px 25px !important;
 	height: 1000px;
@@ -181,11 +180,11 @@ nav {
 
 h4 {
 	text-align: center;
-	color: rgb(221, 204, 204);
 	background: -webkit-linear-gradient(45deg, rgba(229, 57, 53, 0.9),  rgba(0, 146, 204, 0.9));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	filter: drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.9));
+	filter: drop-shadow(0 0 0.3rem rgba(255, 255, 255, 1));
+	font-weight: bold;
 }
 
 .btn-primary {
