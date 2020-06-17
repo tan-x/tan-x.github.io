@@ -3,9 +3,11 @@ $(document).ready(function () {
 	$('#item1').hover(
 		function () {
 			$('#img1').css('filter', 'opacity(85%)');
+			$('#item1').css('background-color', 'white');
 		},
 		function () {
 			$('#img1').css('filter', 'opacity(60%) blur(4px)');
+			$('#item1').css('background-color', 'rgba(255, 255, 255, 0.3)');
 		}
 	);
 
