@@ -301,31 +301,38 @@ p {
 #item1 {
 	grid-row: 1 / 2;
 	grid-column: 1 / span 12;
+	background-color: rgba(255, 255, 255, 0.3);
+	transition: all .9s ease-in-out;
 }
 
 #item2 {
 	grid-row: 2 / 3;
 	grid-column: 1 / span 6;
+	transition: all .5s ease-in-out;
 }
 
 #item3 {
 	grid-row: 2 / 3;
 	grid-column: 7 / span 6;
+	transition: all .5s ease-in-out;
 }
 
 #item4 {
 	grid-row: 3 / 4;
 	grid-column: 1 / span 12;
+	transition: all .5s ease-in-out;
 }
 
 #item5 {
 	grid-row: 4 / 5;
 	grid-column: 1 / span 6;
+	transition: all .5s ease-in-out;
 }
 
 #item6 {
 	grid-row: 4 / 5;
 	grid-column: 7 / span 6;
+	transition: all .5s ease-in-out;
 }
 
 .port-item:hover {
@@ -336,9 +343,9 @@ p {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-	filter: blur(4px) opacity(50%);
+	filter: blur(4px) opacity(60%);
 	overflow: hidden;
-	transition: filter 0.5s ease-out;
+	transition: all 0.5s ease-in-out;
 }
 
 .port-item h2 {
