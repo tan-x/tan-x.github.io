@@ -371,6 +371,7 @@ p {
 
 .modal-title {
 	background: -webkit-linear-gradient(45deg, rgba(0, 146, 204, 0.9), rgba(229, 57, 53, 0.9));
+	background-clip: text;
   	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	width: fit-content;
@@ -398,6 +399,7 @@ p {
 
 .btn-default {
 	background: -webkit-linear-gradient(45deg, rgba(0, 146, 204, 0.9), rgba(229, 57, 53, 0.9));
+	background-clip: text;
   	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	width: fit-content;
