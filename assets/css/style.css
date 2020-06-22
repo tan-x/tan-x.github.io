@@ -360,6 +360,16 @@ p {
 	text-decoration: none;
 }
 
+.modal-img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.modal-header {
+	display: block;
+}
+
 /* fade-in js selectors */
 .fade-in {
 	opacity: 0;

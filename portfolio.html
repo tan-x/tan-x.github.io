@@ -94,7 +94,7 @@
 			<main class="content-port flex-column boxitem rounded fade-in" id="port">
 				<h3><i class="fas fa-book-open"></i> Portfolio</h3>
 				<div class="port-container">
-					<article class="port-item flex-center" id="item1">
+					<article class="port-item flex-center" id="item1" data-toggle="modal" data-target="#myModal">
 						<img id="img1" style="object-fit: contain;" src="assets/images/pubioHoriB.png" alt="PubIO logo" />
 					</article>
 					<article class="port-item flex-center" id="item2">
@@ -119,6 +119,28 @@
 					</article>
 				</div>
 			</main>
+			<div class="modal fade" id="myModal">
+				<div class="modal-dialog">
+    
+					<!-- Modal content-->
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h6 class="modal-title">Modal Header</h6>
+					  </div>
+					  <div class="modal-body">
+						<img class="modal-img" src="./assets/images/pubioHoriB.png" />
+						<h6>Pub Crawl App built in React Native</h6>
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default">GitHub Repo</button>
+						<button type="button" class="btn btn-default">Open</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					  </div>
+					</div>
+					
+				  </div>
+			</div>
 		</div>
 
 		<!-- Footer -->
