@@ -29,7 +29,7 @@ $('.port-item').on('click', (e) => {
             // window.open('https://github.com/tan-x/organize-mobilize', '_blank');
             $(".modal-title").text('Organize Mobilize');
             $('.modal-text').text('Web app built with React')
-            $(".modal-img").attr('src', './assets/images/orgmobfull.png');
+            $(".modal-img").attr('src', './assets/images/orgmobfull.PNG');
             $('#repo').attr('href', 'https://github.com/tan-x/organize-mobilize');
             $('#link').attr('href', 'https://github.com/tan-x/organize-mobilize');
             break;
